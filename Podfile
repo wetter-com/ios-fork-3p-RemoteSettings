@@ -1,9 +1,11 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '9.0'
 
-target 'RemoteSettings' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+abstract_target 'defaults' do
   use_frameworks!
+
+  target 'RemoteSettings' do
+  end
 
   target 'RemoteSettingsTests' do
     pod 'Quick', '~> 1.1'
