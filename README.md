@@ -20,8 +20,10 @@ pod 'RemoteSettings', '~> 1.0'
 Then run `pod install`. Use `import RemoteSettings` to import the Framework into your SourceFiles.
 
 ## Usage
+***Experimental: We also offer a Playground as documentation, check it out :). And make sure "Show Rendered Markdown" is active.***
+
 Let's assume we want to use the GitHub API to fetch information about the **RemoteSettings** project. More specific we want to store the **url** of the **RemoteSettings** repository for later usage.
-```
+```swift
 let apiUrl = URL(string:"https://api.github.com/repos/tbointeractive/remotesettings")!
 ```
 
@@ -33,11 +35,10 @@ let apiUrl = URL(string:"https://api.github.com/repos/tbointeractive/remotesetti
 4. Use that object to fetch data by calling ```public func update(finished: Completion?)```
 
 ***PseudoCode:***
-```
-
-var repoUrl: URL?
-
+```swift
 final class GitHubRemoteSettings: RemoteSettings {
+  var repoUrl: URL?
+
   open override func update(_ data: Data) throws {
     self.repoUrl = // parse data (in this case this is some json), extract the repoUrl and store in member variable
   }
