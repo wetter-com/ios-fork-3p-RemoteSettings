@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/tbointeractive/RemoteSettings.git", :branch => 'develop' }
+  s.source       = { :git => "https://github.com/tbointeractive/RemoteSettings.git", :tag => 'v1.0' }
 
   s.source_files = "RemoteSettings/*.swift"
 end
