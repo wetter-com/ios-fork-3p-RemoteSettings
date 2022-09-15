@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FFE46FF882185B6CD2FB2FA /* Pods_defaults_RemoteSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EFA101220708FC0107D63 /* Pods_defaults_RemoteSettings.framework */; };
 		8C40D03D1F94A0D000612CE5 /* RemoteSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40D03C1F94A0D000612CE5 /* RemoteSettingsTests.swift */; };
 		8C40D03F1F94A0D000612CE5 /* RemoteSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9668E21F94A05500B9A459 /* RemoteSettings.framework */; };
 		8C40D0491F94A26900612CE5 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40D0451F94A26900612CE5 /* DataFetcher.swift */; };
@@ -15,7 +14,6 @@
 		8C40D04B1F94A26900612CE5 /* JSONRemoteSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40D0471F94A26900612CE5 /* JSONRemoteSettings.swift */; };
 		8C40D04C1F94A26900612CE5 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40D0481F94A26900612CE5 /* DataStorage.swift */; };
 		8C9668E71F94A05500B9A459 /* RemoteSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9668E51F94A05500B9A459 /* RemoteSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CCDF29D1F94A62500F1E942 /* Pods_defaults_RemoteSettingsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCDF29E1F94A62500F1E942 /* Pods_defaults_RemoteSettingsTests.framework */; };
 		8CCDF2A81F94A6F700F1E942 /* JSONRemoteSettingsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCDF29F1F94A67900F1E942 /* JSONRemoteSettingsSpec.swift */; };
 		8CCDF2A91F94A6FA00F1E942 /* RemoteSettingsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCDF2A01F94A67900F1E942 /* RemoteSettingsSpec.swift */; };
 		8CCDF2AA1F94A71500F1E942 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCDF2A31F94A6C000F1E942 /* Fixture.swift */; };
@@ -25,7 +23,6 @@
 		8CCDF2AE1F94A71500F1E942 /* json-dictionary.fixture in Resources */ = {isa = PBXBuildFile; fileRef = 8CCDF2A71F94A6C000F1E942 /* json-dictionary.fixture */; };
 		8CCDF2AF1F94A71500F1E942 /* json-invalid.fixture in Resources */ = {isa = PBXBuildFile; fileRef = 8CCDF2A61F94A6C000F1E942 /* json-invalid.fixture */; };
 		8CCDF2B01F94A71500F1E942 /* json.fixture in Resources */ = {isa = PBXBuildFile; fileRef = 8CCDF2A41F94A6C000F1E942 /* json.fixture */; };
-		BACA2CA35E5C0E3DD374ADC4 /* Pods_defaults_RemoteSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCDF29C1F94A60A00F1E942 /* Pods_defaults_RemoteSettings.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27E7975EE45ACBA859F232A1 /* Pods_RemoteSettings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteSettings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D6CA21CA072F3E8040FF422 /* Pods_defaults_RemoteSettingsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_defaults_RemoteSettingsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FB80E149EBDF982908679CA /* Pods_RemoteSettings_RemoteSettingsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteSettings_RemoteSettingsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AF2C4960D89F44C86D222D5 /* Pods-defaults-RemoteSettingsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RemoteSettingsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-RemoteSettingsTests/Pods-defaults-RemoteSettingsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C40D03A1F94A0D000612CE5 /* RemoteSettingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteSettingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C40D03C1F94A0D000612CE5 /* RemoteSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteSettingsTests.swift; sourceTree = "<group>"; };
 		8C40D03E1F94A0D000612CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,8 +46,6 @@
 		8C9668E21F94A05500B9A459 /* RemoteSettings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RemoteSettings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9668E51F94A05500B9A459 /* RemoteSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteSettings.h; sourceTree = "<group>"; };
 		8C9668E61F94A05500B9A459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CCDF29C1F94A60A00F1E942 /* Pods_defaults_RemoteSettings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_defaults_RemoteSettings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CCDF29E1F94A62500F1E942 /* Pods_defaults_RemoteSettingsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_defaults_RemoteSettingsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCDF29F1F94A67900F1E942 /* JSONRemoteSettingsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONRemoteSettingsSpec.swift; sourceTree = "<group>"; };
 		8CCDF2A01F94A67900F1E942 /* RemoteSettingsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteSettingsSpec.swift; sourceTree = "<group>"; };
 		8CCDF2A11F94A6C000F1E942 /* FixtureDataPersister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureDataPersister.swift; sourceTree = "<group>"; };
@@ -64,10 +55,6 @@
 		8CCDF2A51F94A6C000F1E942 /* json-array.fixture */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-array.fixture"; sourceTree = "<group>"; };
 		8CCDF2A61F94A6C000F1E942 /* json-invalid.fixture */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-invalid.fixture"; sourceTree = "<group>"; };
 		8CCDF2A71F94A6C000F1E942 /* json-dictionary.fixture */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-dictionary.fixture"; sourceTree = "<group>"; };
-		9899B1342F594702F83DF7A6 /* Pods-defaults-RemoteSettings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RemoteSettings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-RemoteSettings/Pods-defaults-RemoteSettings.debug.xcconfig"; sourceTree = "<group>"; };
-		BB8C05799936E7B473657961 /* Pods-defaults-RemoteSettings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RemoteSettings.release.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-RemoteSettings/Pods-defaults-RemoteSettings.release.xcconfig"; sourceTree = "<group>"; };
-		D22EFA101220708FC0107D63 /* Pods_defaults_RemoteSettings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_defaults_RemoteSettings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4DAE1DC8C73210E53E11E22 /* Pods-defaults-RemoteSettingsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RemoteSettingsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-RemoteSettingsTests/Pods-defaults-RemoteSettingsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CCDF29D1F94A62500F1E942 /* Pods_defaults_RemoteSettingsTests.framework in Frameworks */,
 				8C40D03F1F94A0D000612CE5 /* RemoteSettings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,27 +70,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FFE46FF882185B6CD2FB2FA /* Pods_defaults_RemoteSettings.framework in Frameworks */,
-				BACA2CA35E5C0E3DD374ADC4 /* Pods_defaults_RemoteSettings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6395D9741A41804061DE5E87 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8CCDF29E1F94A62500F1E942 /* Pods_defaults_RemoteSettingsTests.framework */,
-				8CCDF29C1F94A60A00F1E942 /* Pods_defaults_RemoteSettings.framework */,
-				27E7975EE45ACBA859F232A1 /* Pods_RemoteSettings.framework */,
-				4FB80E149EBDF982908679CA /* Pods_RemoteSettings_RemoteSettingsTests.framework */,
-				D22EFA101220708FC0107D63 /* Pods_defaults_RemoteSettings.framework */,
-				2D6CA21CA072F3E8040FF422 /* Pods_defaults_RemoteSettingsTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8C40D03B1F94A0D000612CE5 /* RemoteSettingsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,8 +116,6 @@
 				8C9668E41F94A05500B9A459 /* RemoteSettings */,
 				8C40D03B1F94A0D000612CE5 /* RemoteSettingsTests */,
 				8C9668E31F94A05500B9A459 /* Products */,
-				A39888BB5375B4D5E19D5936 /* Pods */,
-				6395D9741A41804061DE5E87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,17 +141,6 @@
 			path = RemoteSettings;
 			sourceTree = "<group>";
 		};
-		A39888BB5375B4D5E19D5936 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9899B1342F594702F83DF7A6 /* Pods-defaults-RemoteSettings.debug.xcconfig */,
-				BB8C05799936E7B473657961 /* Pods-defaults-RemoteSettings.release.xcconfig */,
-				5AF2C4960D89F44C86D222D5 /* Pods-defaults-RemoteSettingsTests.debug.xcconfig */,
-				E4DAE1DC8C73210E53E11E22 /* Pods-defaults-RemoteSettingsTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -201,12 +159,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C40D0441F94A0D000612CE5 /* Build configuration list for PBXNativeTarget "RemoteSettingsTests" */;
 			buildPhases = (
-				C5FC6CEAE648FE4A67AEF7D9 /* [CP] Check Pods Manifest.lock */,
 				8C40D0361F94A0D000612CE5 /* Sources */,
 				8C40D0371F94A0D000612CE5 /* Frameworks */,
 				8C40D0381F94A0D000612CE5 /* Resources */,
-				1D7A73DD9BCE5C78D6BE6572 /* [CP] Embed Pods Frameworks */,
-				A3558D398D076D7E389A925B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,12 +177,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C9668EA1F94A05500B9A459 /* Build configuration list for PBXNativeTarget "RemoteSettings" */;
 			buildPhases = (
-				FF9A3B91A3A805879E7DA8D4 /* [CP] Check Pods Manifest.lock */,
 				8C9668DD1F94A05500B9A459 /* Sources */,
 				8C9668DE1F94A05500B9A459 /* Frameworks */,
 				8C9668DF1F94A05500B9A459 /* Headers */,
 				8C9668E01F94A05500B9A459 /* Resources */,
-				E9AE1673E08E1194A7C8FA0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,95 +251,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1D7A73DD9BCE5C78D6BE6572 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-defaults-RemoteSettingsTests/Pods-defaults-RemoteSettingsTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-defaults-RemoteSettingsTests/Pods-defaults-RemoteSettingsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A3558D398D076D7E389A925B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-defaults-RemoteSettingsTests/Pods-defaults-RemoteSettingsTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C5FC6CEAE648FE4A67AEF7D9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-defaults-RemoteSettingsTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E9AE1673E08E1194A7C8FA0D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-defaults-RemoteSettings/Pods-defaults-RemoteSettings-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FF9A3B91A3A805879E7DA8D4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-defaults-RemoteSettings-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		8C40D0361F94A0D000612CE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -425,7 +289,6 @@
 /* Begin XCBuildConfiguration section */
 		8C40D0421F94A0D000612CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AF2C4960D89F44C86D222D5 /* Pods-defaults-RemoteSettingsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,7 +303,6 @@
 		};
 		8C40D0431F94A0D000612CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4DAE1DC8C73210E53E11E22 /* Pods-defaults-RemoteSettingsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -568,7 +430,6 @@
 		};
 		8C9668EB1F94A05500B9A459 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9899B1342F594702F83DF7A6 /* Pods-defaults-RemoteSettings.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -592,7 +453,6 @@
 		};
 		8C9668EC1F94A05500B9A459 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB8C05799936E7B473657961 /* Pods-defaults-RemoteSettings.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
